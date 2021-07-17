@@ -1,0 +1,51 @@
+article {
+  flex: 1;
+  position: relative;
+  padding: 0 1rem;
+  max-width: 40rem;
+}
+
+figure {
+  flex: 1;
+  position: sticky;
+  width: 100%;
+  margin: 0;
+  transform: translate3d(0, 0, 0);
+  background-color: #8a8a8a;
+  z-index: 0;
+  overflow: hidden;
+}
+
+figure img {
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 8rem;
+  font-weight: 900;
+  color: #fff;
+}
+
+.step p {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.step {
+  margin: 0 auto 2rem auto;
+  background-color: #3b3b3b;
+  color: #fff;
+}
+
+.step:last-child {
+  margin-bottom: 0;
+}
+
+.step.is-active {
+  background-color: goldenrod;
+  color: #3b3b3b;
+}
